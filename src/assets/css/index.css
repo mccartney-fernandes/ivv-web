@@ -1,0 +1,32 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import './magnific-popup.css';
+@import './style.css';
+
+.btn-recents-posts {
+  cursor: pointer;
+  background-color: #0540a2;
+  border-color: #0540a2;
+  border-radius: 50% !important;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev {
+  position: absolute;
+  left: 0;
+  z-index: 10000;
+}
+
+.prev-next-desactive {
+  background-color: #ccc !important;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  z-index: 10000;
+}

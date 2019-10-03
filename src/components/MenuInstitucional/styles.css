@@ -1,0 +1,21 @@
+.navbar-institucional {
+  background-color: #7a1025;
+  padding: 2px;
+}
+.container-links-inst {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links-institucional {
+  color: #ffff;
+  font-size: 10pt;
+}
+
+.links-institucional {
+  color: #fff;
+}
+.links-institucional:hover {
+  color: #fff;
+  text-decoration: underline #fff;
+}

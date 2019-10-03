@@ -1,0 +1,42 @@
+.header-area-missoes {
+  background-color: #7a1025 !important;
+  border-top: 1px solid #fff !important;
+}
+
+.main-menu-missoes {
+  padding: 5px !important;
+}
+
+.links-menu-missoes {
+  color: #fff !important;
+}
+
+.links-menu-missoes:hover {
+  text-decoration: underline #fff !important;
+  color: #fff !important;
+}
+.nav-drop-missoes:hover {
+  background-color: #7a1025 !important;
+}
+
+.navbar_fixed_missoes {
+  position: fixed;
+  width: 100%;
+  top: -70px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  transform: translateY(70px);
+  transition: transform 500ms ease, background 500ms ease;
+  -webkit-transition: transform 500ms ease, background 500ms ease;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 991px) {
+  .header-area-missoes .navbar-missoes {
+    background: #7a1025 !important;
+  }
+  .navbar-toggler-missoes span {
+    background-color: #fff !important;
+  }
+}

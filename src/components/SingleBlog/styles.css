@@ -1,0 +1,25 @@
+.img-fluid-single-post {
+  width: 100% !important;
+  height: 500px !important;
+}
+
+.single-post-area .blog-author {
+  background: #cfdff3 !important;
+}
+
+.button-contactForm {
+  background: #0540a2 !important;
+  border-color: #0540a2 !important;
+}
+.button-contactForm:hover {
+  background: #0540a2cc !important;
+  border-color: #0540a2cc !important;
+}
+
+.single-post-area .social-links-autor li a {
+  color: #837984 !important;
+}
+
+.single-post-area .social-links-autor li a:hover {
+  color: #bdbcbd !important;
+}
