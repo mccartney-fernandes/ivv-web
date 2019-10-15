@@ -73,7 +73,7 @@ export default function RecentsPosts() {
               href="/#!"
             >
               {prevDesactive ? (
-                <i class="fas fa-exclamation-circle" />
+                <i className="fas fa-exclamation-circle" />
               ) : (
                 <i className="fas fa-chevron-left text-white" />
               )}

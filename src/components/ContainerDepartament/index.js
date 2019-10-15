@@ -100,6 +100,7 @@ export default function ContainerDepartament({ pastoral }) {
       })
       .catch(error => console.log(error));
   }, []);
+
   let printLideres = lideres
     .filter(l => l.departament)
     .sort(function(a, b) {

@@ -39,16 +39,28 @@ export default function ContainerLideres({ pastoral }) {
       });
     isCasalOrLideres = "Casal Pastoral";
   } else {
-    printLideres = lideres.sort(function(a, b) {
-      if (a.level > b.level) {
-        return 1;
-      }
-      if (a.level < b.level) {
-        return -1;
-      }
-      // a must be equal to b
-      return 0;
-    });
+    printLideres = lideres
+      .filter(l => {
+        if (l.departament && l.diretoria) {
+          return true;
+        }
+
+        if (l.diretoria) {
+          return true;
+        }
+
+        return false;
+      })
+      .sort(function(a, b) {
+        if (a.level > b.level) {
+          return 1;
+        }
+        if (a.level < b.level) {
+          return -1;
+        }
+        // a must be equal to b
+        return 0;
+      });
     isCasalOrLideres = "Diretoria";
   }
   return (

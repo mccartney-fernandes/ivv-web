@@ -1,7 +1,7 @@
-@import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-@import '../../../node_modules/@fortawesome/fontawesome-free/css/all.css';
-@import './magnific-popup.css';
-@import './style.css';
+@import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+@import "./magnific-popup.css";
+@import "./style.css";
 
 .btn-recents-posts {
   cursor: pointer;
@@ -29,4 +29,9 @@
   position: absolute;
   right: 0;
   z-index: 10000;
+}
+
+.border-dominical {
+  border: 1px solid #0540a2;
+  border-radius: 5px;
 }

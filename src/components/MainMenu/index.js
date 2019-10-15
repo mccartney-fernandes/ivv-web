@@ -79,7 +79,7 @@ export default function MainMenu() {
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="/">
+                      <a className="nav-link" href="/departamentos">
                         Departamentos
                       </a>
                     </li>
@@ -94,7 +94,7 @@ export default function MainMenu() {
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="/">
+                      <a className="nav-link" href="/atividades">
                         Atividades
                       </a>
                     </li>
@@ -132,7 +132,7 @@ export default function MainMenu() {
                       </a>{" "}
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="/">
+                      <a className="nav-link" href="/dominical">
                         Dominical
                       </a>
                     </li>
@@ -170,7 +170,7 @@ export default function MainMenu() {
                   </ul>
                 </li>
 
-                <li className="nav-item submenu dropdown">
+                {/* <li className="nav-item submenu dropdown">
                   <Link
                     to="#"
                     className="nav-link dropdown-toggle"
@@ -194,14 +194,14 @@ export default function MainMenu() {
                       </a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <a className="nav-link" href="/livraria">
                     Livraria
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link" href="/contato">
                     Contato
                   </a>
                 </li>
@@ -209,7 +209,7 @@ export default function MainMenu() {
 
               <ul className="nav-right text-center text-lg-right py-4 py-lg-0">
                 <li>
-                  <a href="#">Novos Membros</a>
+                  <a href="/new-menbers">Novos Membros</a>
                 </li>
               </ul>
             </div>
